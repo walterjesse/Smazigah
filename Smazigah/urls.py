@@ -19,7 +19,7 @@ from django.template.defaulttags import url
 from django.urls import path
 from django.urls import include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from Smazigah1 import views
+from Smazigah import views
 
 urlpatterns = [
     path('Mazigah/', admin.site.urls),
